@@ -8,10 +8,11 @@
     <style type="text/tailwindcss" >
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@400;600;700&display=swap');
         *{
-            font-family: "Poppins","Source" Sans Pro;
+            font-family: "Source Sans Pro","Poppins";
             margin: 0;
             padding: 0;
         }
+
         .container{
             width: 1440px;
             margin: auto auto;
@@ -19,22 +20,31 @@
     </style>
     <title>Kourse-Hero</title>
 </head>
-<body class=" h-screen bg-gradient-to-b from-[#192653] to-[#131D41]">
+<body class=" h-max bg-gradient-to-b from-[#192653] to-[#131D41]">
     <div class="container px-36 py-14">
         <nav class="flex justify-between items-center">
             <div class="text-lg text-white font-semibold font-sans">
                 <h1>Kourse</h1>
             </div>
             <div>
-                <ul class="flex text-base space-x-10 font-sans text-[#ffffffa8]">
+                <ul class="flex text-base space-x-16 text-[#ffffffa8]">
                     <li class="hover:text-[#ffffff]">Home</li>
                     <li class="hover:text-[#ffffff]">Courses</li>
                     <li class="hover:text-[#ffffff]">Post a Job</li>
                     <li class="hover:text-[#ffffff]">Contact Us</li>
                 </ul>
             </div>
-            <button class="bg-[#ffffff25] py-2 px-6 font-semibold text-white text-base rounded-lg font-sans hover:text-gray-700 hover:bg-white">Sign Up</button>
+            <button class="bg-[#ffffff25] py-2 px-6 font-semibold text-white text-base rounded-lg hover:text-gray-700 hover:bg-white">Sign Up</button>
         </nav>
+        <div class="grid grid-cols-2">
+            <div class="inline-block mt-36">
+                <h1 class="text-5xl text-white w-4/5 leading-normal mb-4">Elevate Your Career to the Next Level</h1>
+                <p class="text-base text-[#ffffff79] leading-8 w-4/5 mb-14">Get expert-led instruction from experienced professionals in Industry and gain valuable skills and knowledge that can be applied to your career or personal life.</p>
+                <div class="flex">
+                    <button class="text-white font-semibold py-3 px-5 bg-[#FF5C00] rounded-[100px] shadow-lg shadow-[#001aff2e]">Find a Course</button>
+                    <button class="text-[#FF5C00]  py-3 px-5 underline ml-5">Learn More</button>
+                </div>
+        </div> 
     </div>
 </body>
 </html>
